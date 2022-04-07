@@ -1,13 +1,13 @@
-#include<stdio.h>
+#include<unistd.h>
 /**
- * main - This is the main
+ * main - This is main
  *
- * Return: Ends program
+ * Return: End point with a 1
  */
 int main(void)
 {
-	char string[55] = "and that piece of art is useful\" Dora Korpar, 25-10-19\n";
-	for(int i = 0; i < 55; i++)
-		putchar(string[i]);
-	return (0);
+	char st[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(2, st, 59);
+	return (1);
 }
