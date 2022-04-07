@@ -1,9 +1,11 @@
 #include<stdio.h>
-/** main - This is the main function
+/**
+ * main - This is the main function
  *
- *  Return - This signifies the end of our code
+ * Return - This signifies the end of our code
  */
 int main(void)
 {
-	printf("\"with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
