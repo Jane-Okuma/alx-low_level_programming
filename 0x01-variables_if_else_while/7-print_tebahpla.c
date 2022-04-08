@@ -10,7 +10,7 @@ int main(void)
 
 	int n;
 
-	for (n = 25; n <= 0; n--)
+	for (n = 25; n >= 0; n--)
 	{
 		putchar(uppalpha[n]);
 	}
