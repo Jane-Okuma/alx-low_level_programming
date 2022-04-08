@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int a[];
+	int a[10];
 
-	int b[];
+	int b[10];
 
 	int i;
 
