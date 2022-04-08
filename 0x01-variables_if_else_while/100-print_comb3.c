@@ -28,7 +28,7 @@ int main(void)
 			{
 				putchar(a[i] + '0');
 				putchar(b[j] + '0');
-				if (a[i] != 8 && b[j] != 9)
+				if (a[i] != 8)
 				{
 					putchar(',');
 					putchar(' ');
