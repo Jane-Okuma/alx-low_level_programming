@@ -1,4 +1,3 @@
-// Print alphabes in lower case
 void print_alphabet(void)
 {
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
