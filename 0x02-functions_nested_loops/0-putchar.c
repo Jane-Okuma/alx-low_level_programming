@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include "main.h"
 /**
  * main - always check code
@@ -13,8 +12,8 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		putchar(st[i]);
+		_putchar(st[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
