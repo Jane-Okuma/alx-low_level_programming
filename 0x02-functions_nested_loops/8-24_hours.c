@@ -19,16 +19,8 @@ void jack_bauer(void)
 			}
 			else if (sizeof(i) / sizeof(int) == 2)
 			{
-				int a = i / 10;
-
-				char e = (char) a;
-
-				int b = i % 10;
-				
-				char o = (char) b;
-
-				_putchar(e + '0');
-				_putchar(o + '0');
+				_putchar('0' + i / 10);
+				_putchar('0' + i % 10);
 			}
 			_putchar(':');
 			if (sizeof(j) / sizeof(int) == 1)
@@ -38,16 +30,8 @@ void jack_bauer(void)
 			}
 			else if (sizeof(j) / sizeof(int) == 2)
 			{
-				int a = j / 10;
-
-				char e = (char) a;
-
-				int b = j % 10;
-
-				char o = (char) b;
-
-				_putchar(e + '0');
-				_putchar(o + '0');
+				_putchar('0' + j / 10);
+				_putchar('0' + j % 10);
 			}
 			_putchar('\n');
 		}
