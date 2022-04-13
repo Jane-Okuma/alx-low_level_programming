@@ -23,8 +23,8 @@ void jack_bauer(void)
 
 				int b = i % 10;
 
-				_putchar('0' + a);
-				_putchar('0' + b);
+				_putchar(a + '0');
+				_putchar(b + '0');
 			}
 			_putchar(':');
 			if (sizeof(j) / sizeof(int) == 1)
@@ -38,8 +38,8 @@ void jack_bauer(void)
 
 				int b = j % 10;
 
-				_putchar('0' + a);
-				_putchar('0' + b);
+				_putchar(a + '0');
+				_putchar(b + '0');
 			}
 			_putchar('\n');
 		}
