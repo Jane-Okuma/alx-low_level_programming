@@ -1,33 +1,32 @@
-#include "main.h"
+#include"main.h"
 /**
- * times_table - print shit
+ * times_table: pool
  *
- * Return: always 0
+ * Return: none
  */
 void times_table(void)
 {
-	int i, j;
-	
-	for (i = 1; i < 10; i++)
-	{
-		_putchar('0');
-		for (j = 0; j < 10; j++)
-		{
-			int a = i * j'
+	int a, b, c;
 
-			_putchar(',');
-			_putchar(' ');
-			if (a <= 9)
+	for (a = 0; a <= 9; a++)
+	{
+		_putchar(48);
+		for (b = 1; b <= 9; b++)
+		{
+			c = a * b;
+			_putchar(44);
+			_putchar(32);
+			if (c <= 9)
 			{
-				_putchar(' ');
-				_putchar('0' + a);
+				_putchar(32);
+				_putchar(c + 48);
 			}
 			else
 			{
-				_putchar((a / 10) + 48);
-				_putchar((a % 10) + 48);
+				_putchar((op / 10) + 48);
+				_putchar((op % 10) + 48);
 			}
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
