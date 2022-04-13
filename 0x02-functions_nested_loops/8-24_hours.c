@@ -21,7 +21,11 @@ void jack_bauer(void)
 			{
 				int a = i / 10;
 
+				char a = (char) a;
+
 				int b = i % 10;
+				
+				char b = (char) b;
 
 				_putchar(a + '0');
 				_putchar(b + '0');
@@ -36,7 +40,11 @@ void jack_bauer(void)
 			{
 				int a = j / 10;
 
+				char a = (char) a;
+
 				int b = j % 10;
+
+				char b = (char) b;
 
 				_putchar(a + '0');
 				_putchar(b + '0');
