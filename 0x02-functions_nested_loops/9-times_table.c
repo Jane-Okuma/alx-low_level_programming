@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * times_table: pool
+ * times_table - pool
  *
  * Return: none
  */
