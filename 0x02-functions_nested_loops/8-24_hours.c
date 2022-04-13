@@ -19,7 +19,7 @@ void jack_bauer(void)
 			}
 			else if (sizeof(i) / sizeof(int) == 2)
 			{
-				char st[2] = i + '0';
+				char st[] = i + '0';
 				_putchar(st[0]);
 				_putchar(st[1]);
 			}
@@ -31,7 +31,7 @@ void jack_bauer(void)
 			}
 			else if (sizeof(j) / sizeof(int) == 2)
 			{
-				char sto[2] = j + '0';
+				char sto[] = j + '0';
 				_putchar(sto[0]);
 				_putchar(sto[1]);
 			}
