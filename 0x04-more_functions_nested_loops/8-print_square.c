@@ -1,6 +1,6 @@
 #include "main.h"
-/*
- * print_square  - print square
+/**
+ * print_square - print square
  *
  * @size : size of square
  * Return: nothing
