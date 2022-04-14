@@ -8,13 +8,15 @@ void more_numbers(void)
 {
 	int i;
 
-	int j;
+	char j[] - "01234567891011121314;
+
+	int k;
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 48; j < 63; j++)
+		for (k = 0; k < 20; k++)
 		{
-			_putchar(j);
+			_putchar(j[k]);
 		}
 		_putchar('\n');
 	}
