@@ -8,7 +8,7 @@ void more_numbers(void)
 {
 	int i;
 
-	char j[] - "01234567891011121314;
+	char j[] = "01234567891011121314";
 
 	int k;
 
