@@ -19,7 +19,7 @@ void print_diagonal(int n)
 		{
 			if (j == 0)
 			{
-				_putchar('\');
+				_putchar('\\');
 			}
 			else
 			{
@@ -29,8 +29,9 @@ void print_diagonal(int n)
 				{
 					_putchar(' ');
 				}
-				_putchar('\');
+				_putchar('\\');
 			}
+			_putchar('\n');
 		}
 	}
 }
