@@ -13,7 +13,7 @@ void _puts(char *str)
 
 	int i = 0;
 
-	while (i < size)
+	while (i <= size)
 	{
 		putchar(*(str + i));
 		i++;
