@@ -9,11 +9,11 @@
  */
 void puts_half(char *str)
 {
+	int j;
+
 	int i = strlen(str);
 
 	i = i - 1;
-
-	int j;
 
 	if (i % 2 != 0)
 	{
