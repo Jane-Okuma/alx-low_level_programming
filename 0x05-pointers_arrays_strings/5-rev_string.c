@@ -13,13 +13,14 @@ void rev_string(char *s)
 
 	int k = 0;
 
-	while (i + 1 >= 0)
+	while (i >= 0)
 	{
-		int j = i + 1;
+		int j = i;
 
 		s[k] = *(s + j);
 
 		i--;
 		k++;
 	}
+	putchar('\n');
 }
