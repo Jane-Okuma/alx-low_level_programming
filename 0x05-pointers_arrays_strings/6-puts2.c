@@ -13,9 +13,10 @@ void puts2(char *str)
 
 	int i = 0;
 
-	while (i <= size)
+	while (i < size)
 	{
 		putchar(*(str + i));
 		i = i + 2;
 	}
+	putchar('\n');
 }
