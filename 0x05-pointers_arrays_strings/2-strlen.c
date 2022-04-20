@@ -4,8 +4,9 @@
  * _strlen - length of string
  *
  * @s : points to s
+ * Return: returns length of string
  */
 int _strlen(char *s)
 {
-	return(sizeof(s) / 8);
+	return (sizeof(s));
 }
