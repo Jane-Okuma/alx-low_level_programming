@@ -9,30 +9,11 @@ int _strcmp(char *s1, char *s2)
 {
 	int count1 = 0;
 
-	int count2 = 0;
-
-	while (*(s1 + count1) != '\0')
-	{
-		count1++;
-	}
-	while (*(s2 + count2) != '\0')
-	{
-		count2++;
-	}
-	int check = 0;
-
 	int diff = 0;
-
-	if (count1 <= count2)
-		check = count1;
-	else
-		check = count2;
-	int i;
-
-	for (i = 0; i < check; i++)
+	while (diff = 0)
 	{
 		diff = *(s1 + i) - *(s2 + i);
-		if (diff != 0)
+		if (*(s1 + i) == '\0'&& *(s2 + i) == '\0' )
 		{
 			break;
 		}
