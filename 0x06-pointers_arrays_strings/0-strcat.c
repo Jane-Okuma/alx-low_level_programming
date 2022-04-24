@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * _strcat - concatenate 2 strings
- *
- * @dest : destination of concat
+ * _strcat -  concatenates two strings
+ * @dest : destination string
  * @src : source string
  * Return: dest
  */
@@ -12,27 +11,21 @@ char *_strcat(char *dest, char *src)
 
 	int src_size = 0;
 
-	while (*dest != '\0')
+
+	while (*(dest + dest_size) != '\0')
 	{
 		dest_size++;
-		dest++;
 	}
-	while (*src != '\0')
+	while (*(src + src_size) != '\0')
 	{
-		src_size++;
-		src++;
+		src_size++
 	}
 	int i;
 
-	int j = 0;
-
-	for (i = dest_size - 1; i < (dest_size - 1) + src_size; i++)
+	for (i = 0; i <= src_size; i++)
 	{
-		if (j < src_size)
-		{
-			*(dest + i) = *(src + j);
-		}
-		j++;
+		*(dest + dest_size) = *(src + i);
+		dest_size++;
 	}
-	return (*dest);
+	return (dest);
 }

@@ -1,1 +1,1 @@
-This is a fucking readme
+This is a readme
