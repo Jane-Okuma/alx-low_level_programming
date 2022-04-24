@@ -19,10 +19,23 @@ int _strcmp(char *s1, char *s2)
 	{
 		count2++;
 	}
-	if (count1 > count2)
-		return (15);
-	else if (count1 < count2)
-		return (-15);
+	int check = 0;
+
+	int diff = 0;
+
+	if (count1 <= count2)
+		check = count1;
 	else
-		return (0);
+		check = count2;
+	int i;
+
+	for (i = 0; i < check; i++)
+	{
+		diff = *(s1 + i) - *(s2 + i);
+		if (diff != 0)
+		{
+			break;
+		}
+	}
+	return (diff);
 }
