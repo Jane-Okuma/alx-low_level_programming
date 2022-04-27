@@ -1,10 +1,15 @@
 #include "main.h"
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * 
 =======
 
 /**
+=======
+
+/**
+>>>>>>> 68d4d9d904fc0c31f53632514ebad110b8f3ea48
  * _strspn - gets the length of a prefix substring.
  * @s: initial segment.
  * @accept: accepted bytes.
@@ -30,4 +35,7 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (i);
 }
+<<<<<<< HEAD
 >>>>>>> 77cb45934b6b17b03c28404a0150a0f71c56e853
+=======
+>>>>>>> 68d4d9d904fc0c31f53632514ebad110b8f3ea48
