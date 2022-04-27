@@ -1,8 +1,8 @@
 #include "main.h"
 /*
  * _strspn - soes something
- * @s - string that is searched through
- * @accept - search substring
+ * @s : string that is searched through
+ * @accept : search substring
  * Return: Length
  */
 unsigned int _strspn(char *s, char *accept)
