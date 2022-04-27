@@ -1,28 +1,28 @@
-#include "main.h"
-/*
- * _strspn - soes something
- * @s: string that is searched through
- * @accept: search substring
- * Return: Length
+#include "holberton.h"
+
+/**
+ * _strspn - gets the length of a prefix substring.
+ * @s: initial segment.
+ * @accept: accepted bytes.
+ * Return: the number of accepted bytes.
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i;
+	unsigned int i, j, bool;
 
-	int j;
-
-	unsigned int ln = 0;
-
-	for (i = 0; *(accept + i) != '\0'; i++)
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		for (j = 0; *(s + j) != '\0'; j++)
+		bool = 1;
+		for (j = 0; *(accept + j) != '\0'; j++)
 		{
-			if (*(s + j) == *(accept + i))
+			if (*(s + i) == *(accept + j))
 			{
-				ln++;
+				bool = 0;
 				break;
 			}
 		}
+		if (bool == 1)
+			break;
 	}
-	return (ln);
+	return (i);
 }
